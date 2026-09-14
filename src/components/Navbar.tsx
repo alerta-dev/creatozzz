@@ -9,6 +9,8 @@ const navigation = [
   { name: 'Fondos', href: 'fondos', icon: Palette },
   { name: 'Sonidos', href: 'sonidos', icon: Music },
   { name: 'Materiales', href: 'materiales', icon: Box },
+  { name: 'Presets', href: 'presets', icon: Box },
+
 ];
 
 interface NavbarProps {
