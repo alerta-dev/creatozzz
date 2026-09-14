@@ -1,6 +1,6 @@
 import React from 'react';
 import { CategoryCard } from './CategoryCard';
-import heroImage from '../assets/hero.png';
+import heroImage from '../src/assets/hero.png';
 
 interface HomePageProps {
   onNavigate: (section: string) => void;
