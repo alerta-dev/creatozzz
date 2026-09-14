@@ -1,6 +1,6 @@
 import React from 'react';
-import { Monitor, Puzzle, Image, Palette, Music, Box, Download } from 'lucide-react';
 import { CategoryCard } from './CategoryCard';
+import heroImage from '../assets/hero.png';
 
 interface HomePageProps {
   onNavigate: (section: string) => void;
@@ -69,9 +69,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         {/* Imagen / ilustración */}
         <div className="order-2 lg:order-1 flex justify-center">
           <div className="relative w-full max-w-md aspect-square rounded-2xl bg-[rgb(24,24,27)] border border-green-500/10 flex items-center justify-center overflow-hidden">
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-green-500/10 rounded-full blur-3xl" />
-            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-green-500/10 rounded-full blur-3xl" />
-            <Download className="h-28 w-28 text-green-500 relative z-10" strokeWidth={1.5} />
+          <img src={heroImage} alt="LoquendoAlertCreators" className="w-full h-full object-cover" /> 
           </div>
         </div>
 
