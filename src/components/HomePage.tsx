@@ -69,7 +69,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <div className="mb-16 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Imagen / ilustración */}
         <div className="order-2 lg:order-1 flex justify-center">
-          <div className="relative w-full max-w-md aspect-square rounded-2xl bg-[rgb(24,24,27)] border border-green-500/10 flex items-center justify-center overflow-hidden">
+          <div className="relative w-full max-w-md aspect-video rounded-2xl bg-[rgb(24,24,27)] border border-green-500/10 flex items-center justify-center overflow-hidden">
           <img src={heroImage} alt="LoquendoAlertCreators" className="w-full h-full object-cover" /> 
           </div>
         </div>
