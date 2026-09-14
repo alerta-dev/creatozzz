@@ -1,6 +1,7 @@
 import React from 'react';
+import { Monitor, Puzzle, Image, Palette, Music, Box } from 'lucide-react';
 import { CategoryCard } from './CategoryCard';
-import heroImage from '../src/assets/hero.png';
+import heroImage from '../assets/hero.png';
 
 interface HomePageProps {
   onNavigate: (section: string) => void;
