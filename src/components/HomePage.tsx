@@ -8,7 +8,7 @@ interface HomePageProps {
 }
 
 // TODO: reemplazá este link por la invitación real de tu servidor de Discord
-const DISCORD_URL = '#';
+const DISCORD_URL = 'https://discord.com/invite/Y2VUgTE';
 
 function DiscordIcon({ className }: { className?: string }) {
   return (
